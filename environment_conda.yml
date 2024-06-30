@@ -1,0 +1,29 @@
+name: dashboard
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - sqlalchemy=1.4
+  - pip
+  - pip:
+      - hummingbot
+      - numpy==1.26.4
+      - streamlit==1.33.0
+      - watchdog
+      - python-dotenv
+      - plotly
+      - pycoingecko
+      - glom
+      - defillama
+      - statsmodels
+      - pandas_ta==0.3.14b
+      - pyyaml
+      - jupyter
+      - optuna
+      - optuna-dashboard
+      - pathlib
+      - st-pages
+      - streamlit-elements==0.1.*
+      - streamlit-authenticator
+      - pydantic==1.10.4
